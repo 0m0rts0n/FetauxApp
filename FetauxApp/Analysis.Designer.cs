@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.AnalysisNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AnalysisName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AnalysisTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.AnalysisNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AnalysisName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AnalysisTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +57,21 @@
             this.dataGridView1.Size = new System.Drawing.Size(363, 216);
             this.dataGridView1.TabIndex = 6;
             // 
+            // AnalysisNum
+            // 
+            this.AnalysisNum.HeaderText = "№ анализа";
+            this.AnalysisNum.Name = "AnalysisNum";
+            // 
+            // AnalysisName
+            // 
+            this.AnalysisName.HeaderText = "Анализ";
+            this.AnalysisName.Name = "AnalysisName";
+            // 
+            // AnalysisTime
+            // 
+            this.AnalysisTime.HeaderText = "Срок анализа";
+            this.AnalysisTime.Name = "AnalysisTime";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label3);
@@ -73,6 +88,22 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Добавление";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 78);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Срок анализа";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(113, 75);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(241, 22);
+            this.textBox3.TabIndex = 6;
             // 
             // button1
             // 
@@ -116,44 +147,17 @@
             this.textBox2.Size = new System.Drawing.Size(241, 22);
             this.textBox2.TabIndex = 1;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(113, 75);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(241, 22);
-            this.textBox3.TabIndex = 6;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(80, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Срок анализа";
-            // 
-            // AnalysisNum
-            // 
-            this.AnalysisNum.HeaderText = "№ анализа";
-            this.AnalysisNum.Name = "AnalysisNum";
-            // 
-            // AnalysisName
-            // 
-            this.AnalysisName.HeaderText = "Анализ";
-            this.AnalysisName.Name = "AnalysisName";
-            // 
-            // AnalysisTime
-            // 
-            this.AnalysisTime.HeaderText = "Срок анализа";
-            this.AnalysisTime.Name = "AnalysisTime";
-            // 
             // Analysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 450);
+            this.ClientSize = new System.Drawing.Size(385, 392);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(401, 431);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(401, 431);
             this.Name = "Analysis";
             this.Text = "Анализы";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -16,5 +16,14 @@ namespace FetauxApp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (loginTB.Text == "doc" && passwordTB.Text == "doc") { MainMenuDoc mmd = new MainMenuDoc(); mmd.Show(); }
+
+            if (loginTB.Text == "test" && passwordTB.Text == "test") { WatchPatientForm wpf = new WatchPatientForm(); wpf.Show(); }
+
+            if (loginTB.Text == "admin" && passwordTB.Text == "admin") { MainMenuAdmin mma = new MainMenuAdmin(); mma.Show(); }
+        }
     }
 }

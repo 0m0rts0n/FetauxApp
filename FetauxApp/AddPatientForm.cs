@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FetauxApp
 {
-    public partial class MainForm : Form
+    public partial class AddPatient : Form
     {
-        public MainForm()
+        public AddPatient()
         {
             InitializeComponent();
         }

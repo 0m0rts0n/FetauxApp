@@ -135,6 +135,10 @@
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(891, 489);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(891, 489);
             this.Name = "Indication";
             this.Text = "Показания";
             this.groupBox1.ResumeLayout(false);

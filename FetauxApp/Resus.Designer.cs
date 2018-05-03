@@ -65,6 +65,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(343, 322);
             this.Controls.Add(this.dataGridView1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(359, 361);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(359, 361);
             this.Name = "Resus";
             this.Text = "Резус-фактор";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

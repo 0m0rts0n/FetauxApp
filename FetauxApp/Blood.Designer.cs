@@ -62,6 +62,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 221);
             this.Controls.Add(this.dataGridView1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(318, 260);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(318, 260);
             this.Name = "Blood";
             this.Text = "Кровь";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
